@@ -1,3 +1,9 @@
+# MEDDI updates
+
+* added HEIF support - https://medium.com/@veelenga/heif-converter-on-aws-lambda-3674afb4e59d
+* https://github.com/strukturag/libde265
+* https://github.com/strukturag/libheif
+
 # ImageMagick for AWS Lambda
 
 Scripts to compile ImageMagick utilities for AWS Lambda instances powered by Amazon Linux 2.x, such as the `nodejs10.x` or `nodejs12.x` or `python 3.8` runtime, and the updated 2018.03 Amazon Linux 1 runtimes. 
