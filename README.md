@@ -3,6 +3,7 @@
 * added HEIF support - https://medium.com/@veelenga/heif-converter-on-aws-lambda-3674afb4e59d
 * https://github.com/strukturag/libde265
 * https://github.com/strukturag/libheif
+* https://github.com/serverlesspub/imagemagick-aws-lambda-2/pull/26/files
 
 # ImageMagick for AWS Lambda
 

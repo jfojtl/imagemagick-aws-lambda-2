@@ -116,7 +116,7 @@ $(CACHE_DIR)/lib/libopenjp2.a: $(OPENJP2_SOURCE) $(CACHE_DIR)/lib/libpng.a $(CAC
 	make install
 
 
-## libde256
+## libde265
 
 LIBDE265_SOURCE=libde265-$(LIBDE265_VERSION).tar.gz
 
@@ -171,7 +171,7 @@ $(TARGET_DIR)/bin/identify: $(IMAGE_MAGICK_SOURCE) $(LIBS)
 	PKG_CONFIG_PATH=$(CACHE_DIR)/lib/pkgconfig \
 		./configure \
 		CPPFLAGS=-I$(CACHE_DIR)/include \
-		LDFLAGS=-L$(CACHE_DIR)/lib \
+		LDFLAGS="-L$(CACHE_DIR)/lib -lstdc++" \
 		--disable-dependency-tracking \
 		--disable-shared \
 		--enable-static \
