@@ -4,6 +4,7 @@
 * https://github.com/strukturag/libde265
 * https://github.com/strukturag/libheif
 * https://github.com/serverlesspub/imagemagick-aws-lambda-2/pull/26/files
+* https://github.com/shelfio/ghostscript-lambda-layer
 
 # ImageMagick for AWS Lambda
 
